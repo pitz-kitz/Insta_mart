@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contact</title>
+
+    <style>
+        body{
+            background-color: #b11fc5;
+        }
+
+        #main{
+            display: flex;
+            margin: 30px;
+            border-radius: 20px;
+
+        }
+        .same{
+            padding: 25px;
+        }
+        #one {
+            background-color: deepskyblue;
+            width: 50%;
+            padding: 30px;
+            text-align: center;
+
+        }
+        #one h1{
+            color: white;
+            font-style: italic;
+        }
+        #two{
+           background-color: white;
+            padding: 30px;
+           width: 50%;
+        }
+        form{
+            legend{
+                font-size: 36px;
+                font-weight: bold;
+                text-align: center;
+            }
+            input[type=text],input[type=tel],
+            input[type=email],select{
+                width: 60%;
+                padding-left: 25px;
+                height: 40px;
+                border-radius: 2px;
+                background-color: lightgrey;
+                margin-left: 100px;
+            }
+            textarea{
+                padding-left: 25px;
+                margin-left: 100px;
+                background-color: lightgrey;
+                width: 60%;
+            }
+            button{
+                background-color: deepskyblue;
+                width: 50%;
+                height: 40px;
+                margin: 0 auto;
+                display: block;
+                border-radius: 12px;
+
+            }
+
+
+        }
+
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+<div id="main">
+    <div class="same" id="one">
+        <h1>Let's chat</h1>
+        <p style="color: white">Whether you have a quetion, want to start a project or simply want to connect.<br>Feel free to send a message in the contat form</p>
+
+    </div>
+
+<div class="same" id="two">
+    <form action="">
+        <legend>Contact</legend>
+        <br>
+        <option value="" style="margin-left: 100px">*Required</option>
+
+        <input type="text" placeholder="Name" required="required"><br><br>
+
+        <input type="email" placeholder="Email" required="required"><br><br>
+
+        <input type="text" placeholder="Company" required="required"><br><br>
+
+        <input type="tel" placeholder="Phone" required="required"><br><br>
+
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+        <br><br>
+
+
+<button>SUBMIT</button>
+
+
+    </form>
+
+
+</div>
+
+
+
+</div>
+
+</body>
+</html>
